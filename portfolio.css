@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+	font-size: calc(0.75em + 1vmin)!important;
+}
+
+#logo{
+    width: 8%;
+    height: 8%;
+    padding: 1.2%;
+}
+nav{
+    max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+        overflow: hidden;
+        display: block;
+    }
+nav a{
+    padding: 30px;
+    margin: 0 10px;
+    display: block;  
+    color: white;
+    text-decoration: none;
+    float: left;
+    font-weight: 900;
+}
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    background-color: #ee6380;
+    width: 100%;
+}
+#hero{
+    margin-top: 5%;    
+    height: auto;
+    background-color: rgb(230, 156, 18);
+    background-color: #ee8c63;   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	width: auto;
+	color:white;
+	padding: 4% 8%;
+}
+#myimage{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px 40px;
+	}
+.child{
+    height: 50%;
+    width: 50%;
+    text-align: center;    
+    }
+    #div-1 h2{
+        text-align: center;
+
+    }
+    #div-1{
+        padding: 2% 8% ;
+        background-color: #eed263;
+        font-size: 21px;
+        margin: 0px;
+		color:white;
+    }
+    #div-2{        
+      
+        display:flex;
+		flex-wrap: wrap;	
+		background-color: #005b60;	
+		height: auto;
+		width: auto;	
+		padding: 3% 5%;
+    }
+	
+    #div-2 a
+    {
+        text-decoration: none;
+    }
+    #div-2 h1
+    {
+        color: white;		
+    }
+    #div-2 img{
+        width: 8%;
+        height: 8%;
+        padding: 1%;
+    }
+    .child2{
+        width:50%;
+        height:50%;        
+    }
+	#div-2 table{
+				width: auto;
+			
+	
+	}
+	 #div-2 td{        
+        font-weight: 500;
+        color:white;
+		width : auto;	
+		padding	: 2%;	
+    }  
+	#copyright{
+       text-align : center;
+	   width: 100%;
+	   font-weight:900;
+	   padding: 0.5% 0;
+	   color:blue;
+    }  
+    #social{
+        text-align:center;		
+    }
+    .textbox{      
+		height: 25px;		
+		float: left;
+		width : 250px;		
+      margin : 0px 3%;
+    }
+    .submit
+    {
+        background-color: #ee6380;
+        color:white;
+        width:40%;
+        border : none;
+		height:30px;
+		padding: 1%;
+		font-weight: 500;
+		
+    }
+#message{
+	height: 70px;
+}
+#form{
+
+float: left;
+width: auto;
+}
+
