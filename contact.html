@@ -1,39 +1,40 @@
-<div class="container" id="form">
-   <form>
-      <h2>Get in touch</h2>
-      <table>
-         <tr>
-            <td>
-               <label for="yourname">Name </label>
-            </td>
-            <td>
-               <input type="text" id="firstname" class="textbox" name="firstname" placeholder="firstname..">
-            </td>
-         </tr>
-         <tr>
-            <td>
-               <label for="email"> email</label>
-            </td>
+<!DOCTYPE html>
+<html lang="en">
 
-            <td>
-               <label="email" class="textbox" name="email">
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <link rel="stylesheet" href="portfolio.css">
+   <title>Jignasha portfolio</title>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>"> 
+    <script> 
+    $(function(){
+      $("#aboutheader").load("https://jigudhari.github.io/portfolio/header.html"); 
+	   $("#aboutfooter").load("https://jigudhari.github.io/portfolio/footer.html"); 
+    });
+    </script> 
+</head>
 
-            </td>
-         </tr>
-         <tr>
-            <td>
-               <label for="message"> Message</label>
-            </td>
-            <td>
-               <textarea id="message" name="message" class="emptyspace"
-                  placeholder="Please leave me a message"></textarea>
-            </td>
-         </tr>
-         <tr>
-            <td colspan="2">
-               <input type="submit" class="submit" value="Submit">
-            </td>
-         </tr>
-      </table>
-   </form>
-</div>
+<body>
+     <div id="aboutheader"></div>
+
+    <main>
+      <section id="hero">
+         <div id="header-div" class="child">
+            <img id="myimage" src="images/mypic1.jpeg" />
+         </div>
+         <div id="intro" class="child">
+            <h1>Hi, I'm Jignasa Patel.
+            </h1>
+            <h1>I'm a Software Developer in Perth, Western Australia.
+            </h1>
+            <h1>I'd love to hear from you.
+            </h1>
+         </div>
+      </section>
+   </main>
+     
+ <div id="aboutfooter"></div>
+</body>
+
+</html>
